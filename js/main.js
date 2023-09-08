@@ -17,6 +17,7 @@ myDate((myRes) => {
         let tr = document.createElement("tr")
         td = createEle(tr, "td", `${ele.id}`)
         td = createEle(tr, "td", `${ele.name}`)
+        td = createEle(tr, "td", `${ele.username}`);
         td = createEle(tr, "td", `${ele.email}`)
         td = createEle(
           tr,
